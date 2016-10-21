@@ -1,0 +1,237 @@
+/* line 1, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px 18px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-size: 9.5pt;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/* line 18, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.btn2 {
+  display: inline-block;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 4px 18px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/* line 35, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.blue {
+  border-color: #2989d8;
+  background: #2989d8;
+  background: -moz-linear-gradient(top, #2989d8 0%, #1e5799 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2989d8), color-stop(100%, #1e5799));
+  background: -webkit-linear-gradient(top, #2989d8 0%, #1e5799 100%);
+  background: -o-linear-gradient(top, #2989d8 0%, #1e5799 100%);
+  background: -ms-linear-gradient(top, #2989d8 0%, #1e5799 100%);
+  background: linear-gradient(top, #2989d8 0%, #1e5799 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#1e5799',GradientType=0 );
+}
+
+/* line 48, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.btn:hover {
+  border-color: #8fc800;
+  background: #8fc800;
+  background: -moz-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8fc800), color-stop(100%, #438c00));
+  background: -webkit-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -o-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -ms-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: linear-gradient(top, #8fc800 0%, #438c00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fc800', endColorstr='#438c00',GradientType=0 );
+}
+
+/* line 61, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.btn2:hover {
+  border-color: #8fc800;
+  background: #8fc800;
+  background: -moz-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8fc800), color-stop(100%, #438c00));
+  background: -webkit-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -o-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: -ms-linear-gradient(top, #8fc800 0%, #438c00 100%);
+  background: linear-gradient(top, #8fc800 0%, #438c00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fc800', endColorstr='#438c00',GradientType=0 );
+}
+
+/* line 74, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.center_button {
+  float: center;
+  left: 45%;
+  width: 120px;
+  margin: 120px auto;
+}
+
+/* line 81, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+body {
+  background: #eee;
+}
+
+/* line 85, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.content_movies {
+  margin: 0px auto;
+  float: center;
+  height: 230px;
+}
+
+/* line 91, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.in_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 96, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+#map {
+  position: fixed;
+  top: 350px;
+  left: 28%;
+  margin: 0px auto;
+  float: center;
+  width: 600px;
+  height: 200px;
+}
+
+@font-face {
+  font-family: borda_regular;
+  src: url(borda_regular.otf);
+  font-weight: bold;
+}
+
+/* line 112, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.header {
+  height: 100px;
+  background: #006600;
+  border: 1px #666;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* line 122, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.header_text {
+  float: center;
+  line-height: 90px;
+  font-family: borda_regular;
+  font-size: 50px;
+  color: #eee;
+  text-align: center;
+}
+
+/* line 131, D:/z/movies/app/assets/stylesheets/movies.css.scss */
+.content_text {
+  font-family: borda_regular;
+  font-size: 15px;
+}
+/* line 1, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 23, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, D:/z/movies/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

@@ -1,0 +1,47 @@
+{
+    "tableArray":[{
+            "location":"Chile",
+            "date":"1960 05 22"
+        },
+        {
+            "location":"Alaska",
+            "date":"1964 03 28"
+        },
+        {
+            "location":"Northern Sumatra",
+            "date":"2004 12 26"
+        },
+        {
+             "location":"Japan",
+            "date":"2011 03 11"
+        },
+        {
+            "location":"Kamchatka",
+            "date":"1952 11 04"
+        },
+        { "location":"Chile",
+            "date":"2010 02 27"
+        },
+        {
+           "location":"Ecuador",
+            "date":"1906 01 31"
+        },
+        {
+             "location":"Rat Islands",
+            "date":"1965 02 04"
+        },
+        {
+            "location":"Indonesia",
+            "date":"2005 03 28"
+        },
+        {
+           "location":"Tibet",
+            "date":"1950 08 15"
+        },
+        {
+          "location":"Indonesia",
+            "date":"2007 09 12"
+        }
+
+    ]
+}
